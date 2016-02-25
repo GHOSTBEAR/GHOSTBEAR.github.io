@@ -1,10 +1,3 @@
-/*
- * Globals
- */
-
-
-/* Links */
-
 a,
 a:focus,
 a:hover {
@@ -29,10 +22,6 @@ h1 {
     color: #C71585;
 }
 
-/*
- * Base structure
- */
-
 html,
 body {
     height: 100%;
@@ -43,16 +32,10 @@ body {
     text-align: center;
 }
 
-/* Extra markup and styles for table-esque vertical and horizontal centering */
-
 .site-wrapper {
     display: table;
     width: 100%;
     height: 100%;
-    /* For at least Firefox */
-    min-height: 100%;
-    -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .1);
-    box-shadow: inset 0 0 100px rgba(0, 0, 0, .1);
 }
 .intro {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -113,17 +96,11 @@ body {
     font-size: 2.5rem;
 }
 
-/* Padding for spacing */
-
 .inner {
     padding: 33px;
     padding-top: 20px;
     padding-bottom: 40px;
 }
-
-/*
- * Footer
- */
 
 .footer {
     background-color: #272828;
