@@ -13,3 +13,9 @@ section {
     background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(img/jumbotron.jpg) no-repeat center center fixed;
     background-size: cover;
 }
+
+@media only screen and (max-width: 500px) {
+    .jumbotron div p {
+        font-size: 50%;
+    }
+}
