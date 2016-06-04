@@ -1,6 +1,6 @@
 CACHE MANIFEST
-index.css
-img/jumbotron.jpg
+/css/index.css
+/img/jumbotron.jpg
 
 FALLBACK:
 /html/ /index.html
