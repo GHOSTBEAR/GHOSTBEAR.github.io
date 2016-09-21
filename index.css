@@ -61,3 +61,7 @@ footer {
     color: #fff;
     font-size: 12px;
 }
+
+footer p span {
+    color: rgb(231, 76, 60);
+}
