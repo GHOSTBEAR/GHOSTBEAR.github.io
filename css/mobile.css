@@ -1,0 +1,51 @@
+@media only screen and (max-width: 700px) {
+    header {
+        background: none !important;
+        box-shadow: none !important;
+        padding: 8vh 2em !important;
+    }
+
+    header h1 {
+        display: none;
+    }
+
+    header h2 {
+        display: block !important;
+        color: #ffffff;
+    }
+
+    main {
+        width: 80vw !important;
+        padding-bottom: 75px;
+    }
+
+    main p {
+        display: block !important;
+    }
+
+    main span {
+        color: rgb(231, 76, 60);
+        font-weight: 900;
+    }
+
+    .main {
+        display: block !important;
+    }
+
+    .main p {
+        font-size: 1.5em;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        padding: 3vh 0 !important;
+        width: 100%;
+    }
+
+    footer p {
+        font-size: 1.1em;
+        margin: 0;
+    }
+}

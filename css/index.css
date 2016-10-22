@@ -2,19 +2,16 @@
 
 /* CSS Document */
 
-* {
-    font-family: 'Roboto', sans-serif;
-    margin: auto
-}
-
 body {
-    background: #f4f4f4;
+    background: #262626;
+    font-family: "M+ C Type-1 (basic latin) Regular", "M+ C Type-1 (basic latin) Light", sans-serif;
     margin: 0;
 }
 
 header {
-    background: #000000 url("img/holywater.jpeg") no-repeat top center;
+    background: #000000 url("../img/holywater.jpeg") no-repeat top center;
     background-size: cover;
+    box-shadow: 0 0 5px rgba(11, 11, 11, 0.31), 0 0 10px rgba(11, 11, 11, 0.31);
     line-height: 1.75;
     padding: 32vh 2em;
     text-align: center;
@@ -33,6 +30,10 @@ header h1 {
     font-weight: 300;
 }
 
+header h2 {
+    display: none;
+}
+
 header a {
     border: 1px #202020 solid;
     border-radius: 2em;
@@ -49,6 +50,16 @@ header a {
 header a:hover {
     background: #202020;
     color: white;
+}
+
+main {
+    margin: 0 auto;
+    width: 50vw;
+    color: #fff;
+}
+
+.main {
+    display: none;
 }
 
 footer {
