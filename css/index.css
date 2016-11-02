@@ -32,6 +32,7 @@ main {
 h1 {
     color: #FFF;
     font-size: 10vw;
+    margin: 0;
 }
 
 a {
