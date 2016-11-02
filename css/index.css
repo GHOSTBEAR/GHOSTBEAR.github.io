@@ -1,75 +1,56 @@
 @charset "UTF-8";
 
-/* CSS Document */
+@keyframes color-circle {
+    0%   {background-color: #113F8C;}
+    10%  {background-color: #01A4A4;}
+    20%  {background-color: #00A1CB;}
+    30%  {background-color: #61AE24;}
+    40% {background-color: #D0D102;}
+    50% {background-color: #32742C;}
+    60% {background-color: #D70060;}
+    70% {background-color: #E54028;}
+    80% {background-color: #F18D05;}
+    90% {background-color: #616161;}
+    100% {background-color: #113F8C;}
+}
 
 body {
-    background: #262626;
+    animation-name: color-circle;
+    animation-duration: 120s;
+    animation-iteration-count: infinite;
+    background: #212121;
     font-family: "M+ C Type-1 (basic latin) Regular", "M+ C Type-1 (basic latin) Light", sans-serif;
     margin: 0;
-}
-
-header {
-    background: #000000 url("../img/holywater.jpeg") no-repeat top center;
-    background-size: cover;
-    box-shadow: 0 0 5px rgba(11, 11, 11, 0.31), 0 0 10px rgba(11, 11, 11, 0.31);
-    line-height: 1.75;
-    padding: 32vh 2em;
-    text-align: center;
-}
-
-header img {
-    display: inline-block;
-    height: 120px;
-    vertical-align: top;
-    width: 120px;
-}
-
-header h1 {
-    color: white;
-    font-size: 2.5em;
-    font-weight: 300;
-}
-
-header h2 {
-    display: none;
-}
-
-header a {
-    border: 1px #202020 solid;
-    border-radius: 2em;
-    color: #e3e3e3;
-    font-size: 0.6em;
-    letter-spacing: 0.2em;
-    padding: 1em 2em;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: none 400ms ease-out;
-    transition-property: color, background;
-}
-
-header a:hover {
-    background: #202020;
-    color: white;
+    
 }
 
 main {
-    margin: 0 auto;
-    width: 50vw;
-    color: #fff;
-}
-
-.main {
-    display: none;
-}
-
-footer {
-    padding: 3.5vh 2em;
+    padding: 40vh 0;
     text-align: center;
-    background-color: #1c1c1c;
-    color: #fff;
-    font-size: 12px;
 }
 
-footer p span {
-    color: rgb(231, 76, 60);
+h1 {
+    color: #FFF;
+    font-size: 10vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    border: 1px solid #efefef;
+    border-radius: 3vw;
+    color: #FFF;
+    font-size: 2vw;
+    font-weight: 100;
+    margin: 0 auto;
+    padding: 10px;
+    width: 20vw;
+}
+
+p:hover {
+    background: #fff;
+    color: #000;
+    transition: 0.5s;
 }
