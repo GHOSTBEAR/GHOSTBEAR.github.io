@@ -1,17 +1,74 @@
 @charset "UTF-8";
-
 @keyframes color-circle {
-    0%   {background-color: #113F8C;}
-    10%  {background-color: #01A4A4;}
-    20%  {background-color: #00A1CB;}
-    30%  {background-color: #61AE24;}
-    40% {background-color: #D0D102;}
-    50% {background-color: #32742C;}
-    60% {background-color: #D70060;}
-    70% {background-color: #E54028;}
-    80% {background-color: #F18D05;}
-    90% {background-color: #616161;}
-    100% {background-color: #113F8C;}
+    0% {
+        background-color: #113F8C;
+    }
+    10% {
+        background-color: #01A4A4;
+    }
+    20% {
+        background-color: #00A1CB;
+    }
+    30% {
+        background-color: #61AE24;
+    }
+    40% {
+        background-color: #D0D102;
+    }
+    50% {
+        background-color: #32742C;
+    }
+    60% {
+        background-color: #D70060;
+    }
+    70% {
+        background-color: #E54028;
+    }
+    80% {
+        background-color: #F18D05;
+    }
+    90% {
+        background-color: #616161;
+    }
+    100% {
+        background-color: #113F8C;
+    }
+}
+
+@keyframes text-color-circle {
+    0% {
+        color: #113F8C;
+    }
+    10% {
+        color: #01A4A4;
+    }
+    20% {
+        color: #00A1CB;
+    }
+    30% {
+        color: #61AE24;
+    }
+    40% {
+        color: #D0D102;
+    }
+    50% {
+        color: #32742C;
+    }
+    60% {
+        color: #D70060;
+    }
+    70% {
+        color: #E54028;
+    }
+    80% {
+        color: #F18D05;
+    }
+    90% {
+        color: #616161;
+    }
+    100% {
+        color: #113F8C;
+    }
 }
 
 body {
@@ -21,37 +78,17 @@ body {
     background: #212121;
     font-family: "M+ C Type-1 (basic latin) Regular", "M+ C Type-1 (basic latin) Light", sans-serif;
     margin: 0;
-    
-}
-
-main {
-    padding: 40vh 0;
-    text-align: center;
-}
-
-h1 {
-    color: #FFF;
-    font-size: 10vw;
-    margin: 0;
-}
-
-a {
-    text-decoration: none;
 }
 
 p {
-    border: 1px solid #efefef;
-    border-radius: 3vw;
-    color: #FFF;
-    font-size: 2vw;
+    animation-name: text-color-circle;
+    animation-duration: 120s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    color: #113F8C;
+    font-size: 8vw;
     font-weight: 100;
-    margin: 0 auto;
-    padding: 10px;
-    width: 20vw;
-}
-
-p:hover {
-    background: #fff;
-    color: #000;
-    transition: 0.5s;
+    margin: 45vh auto;
+    width: 100vw;
+    text-align: center;
 }
