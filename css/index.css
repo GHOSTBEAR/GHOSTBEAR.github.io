@@ -1,92 +1,91 @@
 @charset "UTF-8";
 @keyframes color-circle {
     0% {
-        background-color: #113F8C;
+        background-color: #1abc9c;
     }
     10% {
-        background-color: #01A4A4;
+        background-color: #2ecc71;
     }
     20% {
-        background-color: #00A1CB;
+        background-color: #3498db;
     }
     30% {
-        background-color: #61AE24;
+        background-color: #9b59b6;
     }
     40% {
-        background-color: #D0D102;
+        background-color: #34495e;
     }
     50% {
-        background-color: #32742C;
+        background-color: #f1c40f;
     }
     60% {
-        background-color: #D70060;
+        background-color: #e67e22;
     }
     70% {
-        background-color: #E54028;
+        background-color: #e74c3c;
     }
     80% {
-        background-color: #F18D05;
+        background-color: #ecf0f1;
     }
     90% {
-        background-color: #616161;
+        background-color: #95a5a6;
     }
     100% {
-        background-color: #113F8C;
+        background-color: #1abc9c;
     }
 }
 
 @keyframes text-color-circle {
     0% {
-        color: #113F8C;
+        color: #FFF;
     }
     10% {
-        color: #01A4A4;
+        color: #FFF;
     }
     20% {
-        color: #00A1CB;
+        color: #FFF;
     }
     30% {
-        color: #61AE24;
+        color: #FFF;
     }
     40% {
-        color: #D0D102;
+        color: #FFF;
     }
     50% {
-        color: #32742C;
+        color: #FFF;
     }
     60% {
-        color: #D70060;
+        color: #FFF;
     }
     70% {
-        color: #E54028;
+        color: #FFF;
     }
     80% {
-        color: #F18D05;
+        color: #34495e;
     }
     90% {
-        color: #616161;
+        color: #000;
     }
     100% {
-        color: #113F8C;
+        color: #FFF;
     }
 }
 
 body {
     animation-name: color-circle;
-    animation-duration: 120s;
+    animation-duration: 240s;
     animation-iteration-count: infinite;
-    background: #212121;
+    background: #1abc9c;
     font-family: "M+ C Type-1 (basic latin) Regular", "M+ C Type-1 (basic latin) Light", sans-serif;
     margin: 0;
 }
 
 p {
     animation-name: text-color-circle;
-    animation-duration: 120s;
+    animation-duration: 240s;
     animation-iteration-count: infinite;
-    animation-delay: 1s;
     color: #113F8C;
-    font-size: 8vw;
+    font-size: 80px;
     font-weight: 100;
     margin: 45vh auto;
     width: 100vw;
