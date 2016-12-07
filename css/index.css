@@ -37,37 +37,37 @@
 
 @keyframes text-color-circle {
     0% {
-        color: #FFF;
+        color: #16a085;
     }
     10% {
-        color: #FFF;
+        color: #27ae60;
     }
     20% {
-        color: #FFF;
+        color: #2980b9;
     }
     30% {
-        color: #FFF;
+        color: #8e44ad;
     }
     40% {
-        color: #FFF;
+        color: #2c3e50;
     }
     50% {
-        color: #FFF;
+        color: #f39c12;
     }
     60% {
-        color: #FFF;
+        color: #d35400;
     }
     70% {
-        color: #FFF;
+        color: #c0392b;
     }
     80% {
-        color: #34495e;
+        color: #bdc3c7;
     }
     90% {
-        color: #000;
+        color: #7f8c8d;
     }
     100% {
-        color: #FFF;
+        color: #16a085;
     }
 }
 
@@ -84,7 +84,7 @@ p {
     animation-name: text-color-circle;
     animation-duration: 240s;
     animation-iteration-count: infinite;
-    color: #113F8C;
+    color: #16a085;
     font-size: 80px;
     font-weight: 100;
     margin: 45vh auto;
