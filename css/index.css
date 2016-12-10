@@ -96,6 +96,7 @@ body {
     margin: 0 auto 40vh;
     width: 100vw;
     text-align: center;
+    display: inline-block;
 }
 
 .project-name {
@@ -108,20 +109,16 @@ body {
     font-weight: 100;
     text-decoration: none;
     padding: 5px 20px;
-    border: 2px solid rgba(0,0,0,0.1);
-    -webkit-border-radius: 99em;
-    -moz-border-radius: 99em;
-    border-radius: 99em;
 }
 
 .project-name:hover {
     transition: 500ms;
-    background-color: rgba(255,255,255,0.75);
+    background-color: rgba(255, 255, 255, 0.75);
     color: #000 !important;
     font-size: 20px;
     font-weight: 100;
     padding: 5px 20px;
-    border-color: rgba(255,255,255,0.0);
+    border-color: rgba(255, 255, 255, 0.0);
     -webkit-border-radius: 99em;
     -moz-border-radius: 99em;
     border-radius: 99em;
@@ -129,5 +126,5 @@ body {
 }
 
 a {
-    text-underline-color: rgba(0,0,0,0.1);
+    text-underline-color: rgba(0, 0, 0, 0.1);
 }
