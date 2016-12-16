@@ -93,7 +93,7 @@ body {
 }
 
 .project {
-    margin: 0 auto 40vh;
+    margin: 0 auto;
     width: 100vw;
     text-align: center;
     display: inline-block;
