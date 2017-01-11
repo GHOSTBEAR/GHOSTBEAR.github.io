@@ -92,7 +92,15 @@ body {
     text-align: center;
 }
 
+.qoute {
+    font-size: 14px;
+    margin: 0 auto 10px;
+    padding: 0;
+}
+
 .project {
+    position: fixed;
+    bottom: 25px;
     margin: 0 auto;
     width: 100vw;
     text-align: center;
@@ -113,7 +121,7 @@ body {
 
 .project-name:hover {
     transition: 500ms;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.9);
     color: #000 !important;
     font-size: 20px;
     font-weight: 100;
