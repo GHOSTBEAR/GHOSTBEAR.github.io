@@ -2,52 +2,32 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="img/icon.png">
     <title>GHOSTBEAR</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="stylesheet" type="text/css" href="http://mplus-fonts.sourceforge.jp/webfonts/basic_latin/mplus_webfonts.css">
-    <link href="css/index.css" rel="stylesheet">
-
+    <meta name="description" content="Ghostbear is here to stay" />
+    <meta name="keywords" content="HTML,CSS,JavaScript" />
+    <meta name="author" content="Andreas E." />
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" type="text/css" href="http://mplus-fonts.sourceforge.jp/webfonts/basic_latin/mplus_webfonts.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
 </head>
 
 <body>
-
-    <p id="username" class="name"></p>
-    <p id="qoute" class="name qoute">one day I will fly away, to my end destination.</p>
-
-    <div class="project">
-        <a href="/p5-snake" class="project-name">Snake</a>
-        <a href="https://github.com/GHOSTBEAR" class="project-name">Github</a>
-        <a href="https://twitter.com/ghostbearjs" class="project-name">Twitter</a>
+    <div>
+        <div>
+            <h1 id="username" class="name"></h1>
+            <p id="qoute" class="name qoute">one day I will fly away, to my end destination.</p>
+        </div>
     </div>
-
-    <script>
-        window.ready = randomizer();
-        function randomizer() {
-            var value = Math.random();
-            if (value < 0.46) {
-                document.getElementById("username").innerHTML = "GHOSTBEAR";
-            } else if (value < 0.92) {
-                document.getElementById("username").innerHTML = "ghostbear"; //
-                document.getElementById("qoute").innerHTML = "a bit of the ol ultraviolence"
-            } else if (value < 0.94) {
-                document.getElementById("username").innerHTML = "”nyaa”";
-                document.getElementById("qoute").innerHTML = "everyone can break apart"
-            } else if (value < 0.96) {
-                document.getElementById("username").innerHTML = "”roar”";
-                document.getElementById("qoute").innerHTML = "please don't feed the bear"
-            } else if (value < 0.98) {
-                document.getElementById("username").innerHTML = "GH0STB34R";
-                document.getElementById("qoute").innerHTML = "gr8 m473, y0u c4n r34d <a href='https://didyouknow.org/numbers-as-letters/'>7H15</a>"
-            } else if (value < 1) {
-                document.getElementById("username").innerHTML = "01000101";
-                document.getElementById("qoute").innerHTML = "01100001 00100000 01110100 <br> 01100101 01101101 01110000 <br> 01100101 01110011 01110100 <br> 00100000 01101001 01101110 <br> 00100000 01100001 00100000 <br> 01110100 01100101 01100001 <br> 01110000 01101111 01110100 <br> 00100000 01111000 01000100"
-            } else {
-                document.getElementById("username").innerHTML = "Error 404";
-                document.getElementById("qoute").innerHTML = "Something went horrible wrong"
-            }
-        };
-    </script>
+    <div>
+        <div class="project">
+            <!--<a href="/endless" class="project-name">Endless</a>-->
+            <a href="/p5-snake" class="project-name">Snake</a>
+            <a href="https://github.com/GHOSTBEAR" class="project-name">Github</a>
+            <a href="https://twitter.com/ghostbearjs" class="project-name">Twitter</a>
+        </div>
+    </div>
+    <script src="js/main.js" type="text/javascript"></script>
 </body>
 
 </html>
