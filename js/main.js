@@ -5,7 +5,7 @@ function randomizer() {
         document.getElementById("username").innerHTML = "GHOSTBEAR";
     } else if (value < 0.92) {
         document.getElementById("username").innerHTML = "ghostbear"; //
-        document.getElementById("qoute").innerHTML = "a bit of the ol ultraviolence";
+        document.getElementById("qoute").innerHTML = "a bit of the ol' ultraviolence";
     } else if (value < 0.94) {
         document.getElementById("username").innerHTML = "”nyaa”";
         document.getElementById("qoute").innerHTML = "everyone can break apart";
