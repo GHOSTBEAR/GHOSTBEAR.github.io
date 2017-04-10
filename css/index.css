@@ -37,37 +37,37 @@
 
 @keyframes text-color-circle {
     0% {
-        color: #16a085;
+        color: #138b73;
     }
     10% {
-        color: #27ae60;
+        color: #239a54;
     }
     20% {
-        color: #2980b9;
+        color: #2470a3;
     }
     30% {
-        color: #8e44ad;
+        color: #7e3c9a;
     }
     40% {
-        color: #2c3e50;
+        color: #22303f;
     }
     50% {
-        color: #f39c12;
+        color: #df8e0c;
     }
     60% {
-        color: #d35400;
+        color: #b84900;
     }
     70% {
-        color: #c0392b;
+        color: #aa3427;
     }
     80% {
-        color: #bdc3c7;
+        color: #afb6bb;
     }
     90% {
-        color: #7f8c8d;
+        color: #738182;
     }
     100% {
-        color: #16a085;
+        color: #138b73;
     }
 }
 
