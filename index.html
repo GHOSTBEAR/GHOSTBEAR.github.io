@@ -2,9 +2,6 @@
 <html lang="en">
 
 <head>
-    <script src='https://bundle.run/kitsu@6?name=Kitsu'></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
     <title>GHOSTBEAR</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="description" content="Ghostbear is here to stay" />
@@ -15,56 +12,38 @@
 </head>
 
 <body>
-    <div>
-        <div>
-            <h1>Andreas E.</h1>
-            <h2>ghostbear, romdierom</h2>
-            <p>Programmer and Otaku</p>
-        </div>
-    </div>
-    <div>
-        <h3>Projects</h3>
-        <ul>
-            <li>
-                <a href="/p5-snake">Snake made with p5.js (JavaScript)</a>
-            </li>
-            <li>
-                <a href="https://github.com/GHOSTBEAR/processing-snake">Snake made with Processing.org (Java)</a>
-            </li>
-            <li>
-                <a href="https://ghostbear.herokuapp.com">Random genre picker (Ruby)</a>
-            </li>
-
-        </ul>
-        <h3>Links</h3>
-        <ul>
-            <li>
-                <a href="https://github.com/GHOSTBEAR">Github</a>
-            </li>
-            <li>
-                <a href="https://twitter.com/ghostbearjs">Twitter</a>
-            </li>
-            <li>
-                <a href="https://kitsu.io/users/romdierom">Kitsu</a>
-            </li>
-        </ul>
-        <div id="app">
-            <h3>Recent activity on Kitsu</h3>
-
-            <div id="kitsu" v-if="items != null" style="margin-bottom: 10px">
-                <div v-for="item in items" style="margin-bottom: 30px;" v-if="!item.private">
-                    <img v-bind:src="item.media.posterImage.tiny" style=" position: relative;top: -12px;height: 50px; float: left;margin-right: 10px;">
-                    <h4> {{
-                        item.media.canonicalTitle }} <small v-if="item.media.episodeCount != null">Progress: {{
-                            item.progress }} of {{ item.media.episodeCount }}</small><small v-else>Progress: {{
-                            item.progress }} of -</small></h4>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="js/main.js">
-
-    </script>
+    <header>
+        <h1>Andreas E. <small>(ghostbear)</small></h1>
+        <p>Java/Android programmer</p>
+        <nav>
+            <a href="https://github.com/GHOSTBEAR">Github</a>
+            <a href="https://twitter.com/ghostbearjs">Twitter</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Projects</h2> 
+        <article>
+            <h4>Ghostbear Dice Roller (Java, Android)</h4>
+            <p>Android app that rolls RPG dices</p>
+            <a href="https://github.com/GHOSTBEAR/ghostbear-dice-roller">Source</a>
+        </article>
+        <article>
+            <h4>Trystan the Bot (Java, Docker, Discord)</h4>
+            <p>A discord bot made for playing D&D</p>
+            <a href="https://github.com/GHOSTBEAR/trystan-the-bot">Source</a>
+        </article>
+        <article>
+            <h4>Snake (Java)</h4>
+            <p>Basic Snake game written in Java</p>
+            <a href="https://github.com/GHOSTBEAR/java-snake">Source</a>
+        </article>
+        <article>
+            <h4>Snake (JavaScript)</h4>
+            <p>Basic Snake game made with p5.js and Firebase</p>
+            <a href="https://ghostbear.me/p5-snake/">Play</a>
+            <a href="https://github.com/GHOSTBEAR/p5-snake">Source</a>
+        </article>
+    </main>
 </body>
 
 </html>

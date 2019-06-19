@@ -6,3 +6,25 @@ body {
     color: #444;
     padding: 0 10px;
 }
+
+p {
+    margin: 0;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+main article {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px #eeeeee solid;
+}
+
+main article:last-child {
+    border-bottom: none;
+}
+
+main article h4 {
+    margin-bottom: 5px;
+}
