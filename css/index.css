@@ -28,3 +28,14 @@ main article:last-child {
 main article h4 {
     margin-bottom: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 40px auto;
+        max-width: 100%;
+        line-height: 1.6;
+        font-size: 18px;
+        color: #444;
+        padding: 0 10px;
+    }
+  }
