@@ -1,8 +1,8 @@
 {
   "name": "ghostbear.me",
   "short_name": "Ghostbear",
-  "theme_color": "#2196f3",
-  "background_color": "#2196f3",
+  "theme_color": "#00bfa5",
+  "background_color": "#00bfa5",
   "display": "minimal-ui",
   "orientation": "portrait",
   "Scope": "/",
