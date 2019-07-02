@@ -15,35 +15,45 @@
 </head>
 
 <body>
-    <header>
-        <h1>Andreas E. <small>(ghostbear)</small></h1>
-        <p>Java/Android programmer</p>
-        <p>Sometimes JavaScrpit too</p>
-        <nav>
-            <a href="https://github.com/GHOSTBEAR">Github</a>
-            <a href="https://twitter.com/ghostbearjs">Twitter</a>
-        </nav>
+    <header class="jumbotron">
+        <div class="outer">
+            <div class="middle">
+                <div class="inner">
+                    <h1>Andreas E.</h1>
+                    <h2>GHOSTBEAR</h2>
+                    <p>Android/Java Programmer</p>
+                    <nav>
+                        <a href="https://github.com/GHOSTBEAR">Github</a>
+                        <a href="https://twitter.com/ghostbearjs">Twitter</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </header>
-    <main>
-        <h2>Projects</h2> 
-        <article>
-            <h4>Ghostbear Dice Roller (Java, Android)</h4>
-            <p>Android app that rolls RPG dices</p>
+    <main class="projects">
+        <h2>Projects</h2>
+        <article class="project">
+            <h3>Ghostbear Dice Roller</h3>
+            <p class="tags">Android, Java</p>
+            <p>An Android application made with MVC architecture. Allows users to select different dices. Choose the number of dices, and then roll the selected number of dices to reveal the final result.</p>
             <a href="https://github.com/GHOSTBEAR/ghostbear-dice-roller">Source</a>
         </article>
-        <article>
-            <h4>Trystan the Bot (Java, Docker, Discord)</h4>
-            <p>A discord bot made for playing D&D</p>
+        <article class="project">
+            <h3>Trystan the Bot</h3>
+            <p class="tags">Discord (JDA), Docker, Java</p>
+            <p>A Discord bot made with the <a href="https://github.com/DV8FromTheWorld/JDA" target="_blank">JDA</a> library and tested with Docker to then deploy on a Raspberry Pi. Allows user to roll stats for D&D characters, roll dices and control music via commands.</p>
             <a href="https://github.com/GHOSTBEAR/trystan-the-bot">Source</a>
         </article>
-        <article>
-            <h4>Snake (Java)</h4>
-            <p>Basic Snake game written in Java</p>
+        <article class="project">
+            <h3>Snake</h3>
+            <p class="tags">Java</p>
+            <p>Snake game made with Swing and stores the local high score in a local file. Allows user control the Snake with the arrow keys on the keyboard and also keeps track of their score.</p>
             <a href="https://github.com/GHOSTBEAR/java-snake">Source</a>
         </article>
-        <article>
-            <h4>Snake (JavaScript)</h4>
-            <p>Basic Snake game made with p5.js and Firebase</p>
+        <article class="project">
+            <h3>Snake</h3>
+            <p class="tags">Firebase, JavaScript, p5.js</p>
+            <p>Snake game made with the <a href="https://p5js.org/" target="_blank">p5.js</a> library and <a href="https://firebase.google.com/" target="_blank">Firebase</a> to store user score to display the local and global high scores. Allows user control the Snake with the arrow keys on the keyboard and also keeps track of their score.</p>
             <a href="https://ghostbear.me/p5-snake/">Play</a>
             <a href="https://github.com/GHOSTBEAR/p5-snake">Source</a>
         </article>
